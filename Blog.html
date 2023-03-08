@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EL BLOG DE FRANCIS</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styleblog.css">
+
+</head>
+<style>
+  /* Header */
+  #navbar-example2 {
+    height: 70px; /* altura del header */
+  }
+  /* padding para evitar que el contenido se solape con el header */
+  .container {
+    padding-top: 70px; /* altura del header */
+  }
+
+  /* Media queries para ajustar el tamaño del header y el padding en diferentes tamaños de pantalla */
+  @media (max-width: 800px) {
+    #navbar-example2 {
+      height: 50px;
+    }
+    .container {
+      padding-top: 50px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #navbar-example2 {
+      height: 40px;
+    }
+    .container {
+      padding-top: 40px;
+    }
+  }
+</style>
+<body>
+  <!--Barra de Navegación-->
+  <nav id="navbar-example2" class="navbar bg-dark px-3 mb-3 fixed-top">
+    <a class="navbar-brand text-light" href="Blog.html">MI BLOG</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#UltimoPost">ULTIMO POST</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#scrollspyHeading2">MI FUTCHAMPIONS</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">MI FP</a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">LL.MM</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">PROGRAMACIÓN</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">FOL</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading6">BB.DD</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading7">E.DESARROLLO</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading8">UX/UI</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading9">SS.II</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  
+
+  <!--Cuerpo del blog-->
+  <div class="container"> 
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0" style="background-color: rgb(111, 0, 255);">
+          
+          <h2 id="UltimoPost">Ultimo Post</h2>
+          <p>Fusce laoreet lectus id urna condimentum iaculis.
+          Ut viverra, neque eget mollis faucibus, est sem hendrerit elit, nec facilisis ex sem id nulla. 
+          Phasellus tempor sem eu magna blandit, at sollicitudin ante ultrices. Ut lacinia sed nunc vel aliquet. 
+          Etiam scelerisque augue tortor, ut tristique lectus porttitor sed. In tortor risus, condimentum eget dictum et, dictum pharetra massa. Duis molestie venenatis diam sed tempus. Sed non suscipit velit. Mauris id ligula dictum, lobortis nunc sed, fermentum libero. 
+          Etiam maximus arcu sed diam laoreet, eget dictum elit euismod. Vestibulum lacinia sem vel libero tempus, ac iaculis velit mollis. 
+          Aenean molestie, sem quis dictum varius, sem sapien vulputate nisi, sed fermentum velit sapien vel metus. 
+          Aenean rhoncus et augue ut pretium. Donec congue congue ornare.</p>
+          <!--Caja comentarios-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Deja tu comentario</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 id="scrollspyHeading2">FutChampions</h2>
+          <br>
+          <p>
+            Buenas en esta entrada te explicaré que es FutChampions por si no sabes lo que es y te hablaré de mis resultados una vez lo finalice cada fin de semana.
+            Para empezar FutChampions es uno de los modos de juego del videojuego Fifa que está dentro del apartado de Ultimate Team(U.T) 
+            aquí es donde los usuarios que juegan más enserio al videojuego ponen a prueba sus equipos que han construido contra otros usuarios 
+            y según vayas ganando o perdiendo partidos sumas unos puntos.
+            FutChampions cuenta con 10 partidos clasificatorios para el mismo.
+            Si ganas el partido sumas 4 puntos.
+            Si pierdes el partido solo sumas 1 punto.
+            Tienes que conseguir al menos 20 puntos en esos 10 partidos para clasificarte a las finales de FutChampions antes del viernes.
+            Una vez los terminas esos 10 partidos según los puntos que hayas obtenido recibes unas recompesas para mejorar tu equipo o conseguir monedas para comprando/vendiendo jugadores.
+            Una vez Clasificado se resetean esos puntos y empiezas de 0 pero esta vez tienes 20 partidos por delante.
+            Una vez los terminas esos 20 partidos durante el fin de semana según los puntos que hayas obtenido recibes unas recompesas para mejorar tu equipo o conseguir monedas para comprando/vendiendo jugadores 
+            (estas recompensas son mejores que las del clasificatorio).
+            Esto es FutChampions y más adelante te diré como he quedado este fin de semana nos vemos.
+          </p>
+
+          <!--Caja comentarios-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Deja tu comentario</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 id="scrollspyHeading3">LL.MM</h2>
+          <br>
+          <p>
+            Lenguaje de Marcas es una asignatura impartida por mi Profesor Carlos.
+            En este asignatura aprendemos varios lenguajes para realizar la arquitectura de una página web.
+            Estos lenguajes son Javascript,html 5 y css.
+            Gracias a estos lenguajes el profesor nos enseña varias tecnicas y como aplicar las reglas de cada lenguaje.
+            Cuando eso sucede el profesor nos manda a realizaar una serie de ejercicios o proyectos como este blog para ver si hemos entendido y poner en practica estos conocimientos adquiridos.
+          </p>
+          <!--Caja comentarios-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Deja tu comentario</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 id="scrollspyHeading4">PROGRAMACIÓN</h2>
+          <br>
+          <p>
+            Programación es una asignatura impartida por mi Profesor Sergio.
+            En este asignatura aprendemos varios lenguajes de programación.
+            Principalmente nos enseña Java.
+            Pero ahora mismo estamos con Kotlin es un lenguaje que se utiliza para realizar aplicaciones en android.
+            Gracias a estos lenguajes el profesor nos enseña varias tecnicas y como aplicar las reglas de cada lenguaje.
+            Cuando eso sucede el profesor nos manda a realizaar una serie de ejercicios o proyectos (crear aplicaciones propias) para ver si hemos entendido y poner en practica estos conocimientos adquiridos.
+          </p>
+          <!--Caja comentarios-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Deja tu comentario</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 id="scrollspyHeading5">FOL</h2>
+          <br>
+          <p>
+            Formación y Orientación Laboral es una asignatura impartida por Lola.
+            En esta asignatura nos enseñan a estar activos en Linkedin con nuestro perfil personal,seguir empresas de nuestro sector.
+            Además de explicarnos como funciona una nomina y que significa cada apartado de ella,Primeros Auxilios,las diferentes organizaciones de Riesgos Laborales
+            entre otras muchas cosas más.
+          </p>
+          <!--Caja comentarios-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Deja tu comentario</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 id="scrollspyHeading6">BB.DD</h2>
+          <br>
+          <p>
+            Base de Datos es una asignatura impartida por mi Profesor Alfonso Luis.
+            En este asignatura aprendemos como hacer bases de Datos,importarlas a nuestro ordenador y buscar información en ellas.
+            Todo esto desde la consola de comandos del ordenador con un lenguaje llamado mysql.
+          </p>
+          <!--Caja comentarios-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Deja tu comentario</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 id="scrollspyHeading7">E.Desarrollo</h2>
+          <br>
+          <p>
+            Entornos de Desarrollo es una asignatura impartida por mi Profesor Jose.
+            En este asignatura aprendemos a programar cosas más complejas con Java
+            Gracias a este lenguaje el profesor nos enseña varias tecnicas y como aplicar las reglas de Java.
+            Cuando eso sucede el profesor nos manda a realizar una serie de ejercicios para ver si hemos entendido y poner en practica estos conocimientos adquiridos.
+          </p>
+          <!--Caja comentarios-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Deja tu comentario</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 id="scrollspyHeading8">UX/UI</h2>
+          <br>
+          <p>
+            En Experiencia de usuario es una asignatura impartida por mi Profesora Vanesa.
+            En este asignatura aprendemos a como darle diseño a nuestras páginas webs o relizar paginas webs con Wordpress.
+            Gracias a esto Vanesa nos enseña varias tecnicas y como aplicar las reglas del diseño para que nuestras webs sean más bonitas y más profesionales.
+            Cuando eso sucede Vanesa nos manda a realizar una serie de ejercicios o proyectos como una tienda online para ver si hemos entendido y poner en practica estos conocimientos adquiridos.
+          </p>
+          <!--Caja comentarios-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Deja tu comentario</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 id="scrollspyHeading9">SS.II</h2>
+          <br>
+          <p>Donec ornare ante et risus consequat pharetra. 
+            Aliquam tincidunt vitae ligula ac aliquet. 
+            Vestibulum scelerisque convallis commodo. 
+            Integer eget felis non justo sodales pretium ut id odio. 
+            Nam sit amet nibh ut nisl vulputate molestie nec sed nunc. Suspendisse imperdiet in odio at pellentesque. 
+            Nam et elementum mi. Vestibulum tellus arcu, ornare sed pellentesque non, molestie ut orci. 
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+            Etiam vitae fermentum metus. Nam arcu magna, ultricies et lacus at, laoreet eleifend mi. 
+            Praesent urna odio, egestas vitae mauris nec, rutrum semper lacus. 
+            Donec nibh eros, ultrices vitae porttitor et, tempus non nulla. 
+            Praesent commodo diam et faucibus egestas. Donec sed ligula pellentesque, rhoncus urna sed, pulvinar libero.
+          </p>
+          <!--Caja comentarios-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Deja tu comentario</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    
+</body>
+</html>
